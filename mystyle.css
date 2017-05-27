@@ -1,0 +1,711 @@
+body {
+    padding:0;
+    margin:0;
+}
+
+
+/* Header */
+
+
+.header {
+    height:90px;
+    width:100%;
+    display:inline-block;
+}
+.cort {
+    top:10px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:8px;
+    margin-right:8px;
+}
+.headertitle  {
+    display:inline-block;
+    color:#aa8d46;
+    vertical-align:middle;
+}
+@media (max-width:1000px) {
+    .headertitle {
+        font-size:1.25em;
+    }
+}
+@media (max-width:900px) {
+    .headertitle {
+        font-size:1.00em;
+    }
+}
+@media (max-width: 750px) {
+    .headertitle {
+        font-size:0.5em;
+    }
+}
+        @media(max-width: 600px) {
+            .headertitle {
+                font-size:0.75em;
+            }
+        }
+
+.linkholder {
+    display:inline-block;
+    vertical-align:top;
+    float:right;
+    margin-right:15px;
+}
+.HomePageLink  {
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    float:left;
+    padding: 0 10px ;
+    margin-top:5px;
+}
+.HomePageLink:hover {
+    color:#aa8d46;
+}
+.finddealerlink {
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    background-color:#aa8d46;
+    padding: 13px 17px;
+    margin-bottom:10px;
+    float:right;
+    line-height:22px;
+    text-align:center;
+}
+
+
+/* Image slider section */
+
+
+
+.imageslider {
+    position:relative;
+    width:100%;
+}
+@media (min-width:1000px) {
+    .imageslider {
+        margin-top:100px;
+    }
+}
+
+.imageinslider {
+    position:relative;
+    width:100%;
+}
+
+
+/* Craftsmanship text section */
+
+
+.textcontainer {
+    width:100%;
+    text-align:center;
+    display:block;
+    line-height: 25px;
+    margin-top:75px;
+    margin-bottom:75px;
+}
+h1 {
+    color:#aa8d46;
+}
+.craftsmanshiptext {
+    width:750px;
+    text-align:center;
+    margin:auto;
+    font-family:"Open Sans","Roboto","sans-serif";
+}
+
+@media (max-width:800px) {
+    .craftsmanshiptext {
+        width:500px;
+    }
+}
+@media (max-width:600px) {
+    .craftsmanshiptext {
+        width:400px;
+    }
+}
+
+
+/* Bartolini section */
+
+
+.bartolinisection {
+    background-image: url("images/bartolini-pickups-background.jpg");
+    background-size: cover!important;
+    position: relative;
+    min-height: 684px;
+    height:100%;
+}
+
+.positionfortextblock {
+    opacity: 0;
+}
+
+.textblockbartolinibackground {
+    background: rgba(0, 0, 0, .57);
+    position: absolute;
+    top: 0;
+    display: table;
+    text-align:center;
+    height:100%;
+}
+.textblockbartolini {
+    margin: 5%;
+}
+h2 {
+    color:white;
+}
+.bartolinisubtext {
+    list-style:none;
+    color:white;
+}
+.availabletext {
+    color:white;
+}
+.bartolinilink {
+    color:#aa8d46;
+    text-decoration: none;
+}
+.bartolinilink:hover {
+    color:white;
+}
+
+@media (max-width:1200px) {
+    .textblockbartolinibackground {
+        background:rgba(0,0,0,.57);
+        display:inline-block;
+        width:300px;
+        margin-left:30px;
+        text-align:center;
+        font-size:1.1em;
+        height:100%;
+    }
+    }
+@media (max-width:2500px) {
+    .textblockbartolinibackground {
+        background:rgba(0,0,0,.57);
+        display:inline-block;
+        width:300px;
+        margin-left:50px;
+        text-align:center;
+        font-size:1.1em;
+        height:100%;
+    }
+}
+
+
+
+
+
+/*Guitar choice section A */
+
+.guitarchoicea {
+    width:100%;
+    display:block;
+    margin-bottom:50px;
+}
+.columnfirst {
+    display:inline-block;
+    width:47%;
+    vertical-align:top;
+    color:black;
+}
+.a5ultra {
+    max-width:100%;
+    margin-top:20px;
+    margin-left:5%;
+    margin-right:2.5%;
+    border-bottom: solid black 2px;
+}
+.a4ultra {
+    max-width:100%;
+    margin-left:5%;
+    margin-top:20px;
+    margin-right:2.5%;
+    border-bottom: solid black 2px;
+}
+
+.columnB {
+    display:inline-block;
+    width:47%;
+}
+
+.a6plus {
+    max-width:100%;
+    margin-left:2.5%;
+    margin-right:5%;
+    margin-top:20px;
+    border-bottom: solid black 2px;
+}
+.a5plus {
+    margin-top:20px;
+    margin-right:5%;
+    max-width:100%;
+    margin-left:2.5%;
+    border-bottom: solid black 2px;
+}
+.a4plus {
+    margin-top:20px;
+    margin-right:5%;
+    max-width:100%;
+    margin-left:2.5%;
+    border-bottom: solid black 2px;
+}
+
+.a5ultraimage {
+    max-width:100%;
+    margin-right:3%;
+}
+.a4ultraimage {
+    max-width:100%;
+    margin-right:3%;
+}
+
+.a6plusimage {
+    max-width:100%;
+}
+.a5plusimage {
+    max-width:100%;
+}
+.a4plusimage {
+    max-width:100%;
+}
+
+.swatcheslink {
+    display:inline-block;
+    color:black;
+    text-decoration:none;
+}
+
+h3 {
+    display:inline-block;
+
+}
+
+.naturalswatch {
+    float:right;
+}
+
+.blackcherryswatch {
+    float:right;
+    margin-left:15px;
+}
+
+@media (max-width:700px) {
+    .columnfirst {
+       width:100%;
+        margin:0;
+        display:block;
+    }
+}
+@media (max-width:700px) {
+    .columnB {
+        width:100%;
+        margin:0;
+        display:block;
+    }
+}
+
+
+
+/* Hipshot Transtone section */
+
+
+.hipshotsection {
+    background-image: url("images/hipshotBridges-background.jpg");
+    background-size: cover!important;
+    position: relative;
+    min-height: 684px;
+    height:100%;
+}
+
+.positionfortextblockhipshot {
+    opacity: 0;
+}
+
+.textblockhipshotbackground {
+    background: rgba(0, 0, 0, .57);
+    position: absolute;
+    top: 0;
+    right:50px;
+    display: table;
+    text-align:center;
+    height:100%;
+}
+.textblockhipshot {
+    margin: 5%;
+    text-align:center;
+
+}
+h2 {
+    color:white;
+    font-size:0.9em;
+
+}
+.hipshotsubtext {
+    list-style:none;
+    color:white;
+    font-size:0.9em;
+    line-height: 25px;
+
+}
+.availabletexthipshot {
+    color:white;
+}
+.hipshotlink {
+    color:#aa8d46;
+    text-decoration: none;
+}
+.hipshotlink:hover {
+    color:white;
+}
+
+@media (max-width:1200px) {
+    .textblockhipshotbackground {
+        background:rgba(0,0,0,.57);
+        display:inline-block;
+        width:300px;
+        margin-right:30px;
+        text-align:center;
+        font-size:1.1em;
+        height:100%;
+    }
+}
+@media (max-width:2500px) {
+    .textblockhipshotbackground {
+        background:rgba(0,0,0,.57);
+        display:inline-block;
+        width:300px;
+        margin-right:50px;
+        text-align:center;
+        font-size:1.1em;
+        height:100%;
+    }
+}
+
+
+
+
+
+
+
+
+/* Hipshot tuner section */
+
+
+.hipshottunersection {
+    background-image: url("images/hipshotTuner-background.jpg");
+    background-size: cover!important;
+    position: relative;
+    min-height: 684px;
+    height:100%;
+}
+
+.positionfortextblockhipshottuner {
+    opacity: 0;
+}
+
+.textblockhipshottunerbackground {
+    background: rgba(0, 0, 0, .57);
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    text-align:center;
+    height:100%;
+}
+.textblockhipshottuner {
+    margin: 5%;
+    text-align:center;
+
+}
+h2 {
+    color:white;
+    font-size:0.9em;
+
+}
+.hipshottunersubtext {
+    list-style:none;
+    color:white;
+    font-size:0.9em;
+    line-height: 25px;
+    text-align:center;
+
+}
+.availabletexthipshottuner {
+    color:white;
+}
+.hipshottunerlink {
+    color:#aa8d46;
+    text-decoration: none;
+}
+.hipshottunerlink:hover {
+    color:white;
+}
+
+@media (max-width:1200px) {
+    .textblockhipshottunerbackground {
+        background:rgba(0,0,0,.57);
+        display:inline-block;
+        width:300px;
+        margin-left:30px;
+        text-align:center;
+        font-size:1.1em;
+        height:100%;
+    }
+}
+@media (max-width:2500px) {
+    .textblockhipshottunerbackground {
+        background:rgba(0,0,0,.57);
+        display:inline-block;
+        width:300px;
+        margin-left:50px;
+        text-align:center;
+        font-size:1.1em;
+        height:100%;
+    }
+}
+
+
+
+
+
+/*Guitar choice section B */
+
+.guitarchoiceb {
+    width:100%;
+    display:block;
+    margin-bottom:50px;
+}
+.columnfirstb {
+    display:inline-block;
+    width:47%;
+    vertical-align:top;
+    color:black;
+}
+.b5plusascontain {
+    max-width:100%;
+    margin-top:20px;
+    margin-left:5%;
+    margin-right:2.5%;
+    border-bottom: solid black 2px;
+}
+.b4plusascontain {
+    max-width:100%;
+    margin-left:5%;
+    margin-top:20px;
+    margin-right:2.5%;
+    border-bottom: solid black 2px;
+}
+
+.b4flplusascontain {
+    max-width:100%;
+    margin-left:5%;
+    margin-top:20px;
+    margin-right:2.5%;
+    border-bottom: solid black 2px;
+}
+
+.columnB {
+    display:inline-block;
+    width:47%;
+}
+
+.b5plusmhcontain {
+    max-width:100%;
+    margin-left:2.5%;
+    margin-right:5%;
+    margin-top:20px;
+    border-bottom: solid black 2px;
+}
+
+.b4plusmhcontain {
+    max-width:100%;
+    margin-left:2.5%;
+    margin-right:5%;
+    margin-top:20px;
+    border-bottom: solid black 2px;
+}
+.c4pluszbmhcontain {
+    margin-top:20px;
+    margin-right:5%;
+    max-width:100%;
+    margin-left:2.5%;
+    border-bottom: solid black 2px;
+}
+
+.b5plusasimage {
+    max-width:100%;
+    margin-right:3%;
+}
+.b4plusasimage {
+    max-width:100%;
+    margin-right:3%;
+}
+
+.b4flplusasimage {
+    max-width:100%;
+    margin-right:3%;
+}
+
+.b5plusmhimage {
+    max-width:100%;
+}
+.b4plusmhimage {
+    max-width:100%;
+}
+.c4pluszbmhimage {
+    max-width:100%;
+}
+
+.swatcheslink {
+    display:inline-block;
+    color:black;
+    text-decoration:none;
+}
+
+h3 {
+    display:inline-block;
+
+}
+
+.naturalswatch {
+    float:right;
+}
+
+.mahogonyswatch {
+    float:right;
+}
+
+.tobaccoswatch {
+    float:right;
+}
+
+@media (max-width:700px) {
+    .columnfirst {
+        width:100%;
+        margin:0;
+        display:block;
+    }
+}
+@media (max-width:700px) {
+    .columnB {
+        width:100%;
+        margin:0;
+        display:block;
+    }
+}
+
+
+
+
+
+
+/* Mark Bass section */
+
+
+.markbasssection {
+    background-image: url("images/markBass-background.jpg");
+    background-size: cover!important;
+    position: relative;
+    min-height: 684px;
+    height:100%;
+}
+
+.positionfortextblockmarkbass {
+    opacity: 0;
+}
+
+.textblockmarkbassbackground {
+    background: rgba(0, 0, 0, .57);
+    position: absolute;
+    top: 0;
+    right:50px;
+    display: inline-block;
+    text-align:center;
+    height:100%;
+}
+.textblockmarkbass {
+    margin: 5%;
+    text-align:center;
+
+}
+h2 {
+    color:white;
+    font-size:0.9em;
+
+}
+.markbasssubtext {
+    list-style:none;
+    color:white;
+    font-size:0.9em;
+    line-height: 25px;
+    text-align:center;
+
+}
+.availabletextmarkbass {
+    color:white;
+}
+.markbasslink {
+    color:#aa8d46;
+    text-decoration: none;
+}
+.markbasslink:hover {
+    color:white;
+}
+
+@media (max-width:1200px) {
+    .textblockmarkbassbackground {
+        background:rgba(0,0,0,.57);
+        display:inline-block;
+        width:300px;
+        margin-right:30px;
+        text-align:center;
+        font-size:1.1em;
+        height:100%;
+    }
+}
+@media (max-width:2500px) {
+    .textblockmarkbassbackground {
+        background:rgba(0,0,0,.57);
+        display:inline-block;
+        width:300px;
+        margin-right:50px;
+        text-align:center;
+        font-size:1.1em;
+        height:100%;
+    }
+}
+
+
+/* Footer */
+.footerholder {
+    background-color:#3e3e3e;
+    height:200px;
+}
+
+.footercontianer {
+    background-color:#3e3e3e;
+    vertical-align:center;
+    text-align:center;
+}
+.homelinkfooter {
+    text-decoration: none;
+    display: inline-block;
+    color: #aa8d46;
+    vertical-align:center;
+    text-align:center;
+    width:50%;
+}
+.seemorebasses {
+    font-size:2em;
+}
+.footerarrow {
+    float:right;
+    margin:0px 0px 15px 15px;
+}
+.copyrightfooter {
+    color:white;
+}
